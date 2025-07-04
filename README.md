@@ -29,7 +29,7 @@ No Python or external dependencies are required. All resources are bundled insid
 ### Map Polygon Example:
 ![Polygon](./1.jpg)
 
-### Elliptical Area Example:
+### CircleArc Example:
 ![Elliptical](./2.jpg)
 
 ### Main interface:
