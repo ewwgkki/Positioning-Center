@@ -13,13 +13,30 @@
 
 This is a **standalone binary** application for Location Mapper, providing:
 
-- HTTP server to handle MLP and NGMLC location requests
+- HTTP server to handle MLP and NGMLC location requests/reponse/location reports
+- NGMLC tracking is supposrted
+- Draw location reponses/reports on Map
 - Frontend web interface for visualization
 - Simulated location responses for testing
+- Draw shapes on Map, GAD shape is supported
+- Draw cell on map(to be supported in the next version)
+- Indoor positioning map(to be supported in the next version)
 
 No Python or external dependencies are required. All resources are bundled inside the binary.
 
----
+## Screenshots
+
+### Map Polygon Example
+![Polygon](./1.jpg)
+
+### Elliptical Area Example
+![Elliptical](./2.jpg)
+
+### Main interface
+![Elliptical](./3.jpg)
+
+### Tracking Demo
+
 
 ## 🖥 System Requirements
 
@@ -34,7 +51,7 @@ No Python or external dependencies are required. All resources are bundled insid
 
 | File                        | Description                          |
 |-----------------------------|--------------------------------------|
-| `location-mapper-v2.1.6.bin` | Standalone executable binary         |
+| `location-mapper-linux-x64.bin` | Standalone executable binary         |
 | `README.md`                 | This instruction manual              |
 
 ---
@@ -71,17 +88,6 @@ No Python or external dependencies are required. All resources are bundled insid
 
 Username/password: please contact author
 
----
-
-## 🗺 Frontend Pages
-
-| Page                           | Description                          |
-|---------------------------------|--------------------------------------|
-| `/immediate-positioning.html`   | Send MLP or NGMLC Immediate requests |
-| `/position-tracking.html`       | Send NGMLC Tracking subscription     |
-| `/LocationResponse.html`        | Visualize raw location responses     |
-| `/cellonmap.html`               | Cell tower visualization             |
-| `/GADonmap.html`                | GAD format test visualization        |
 
 ---
 
@@ -114,4 +120,4 @@ For issues or questions, please contact:
 
 **KAI WANG**  
 Email: kaiwang.e@gmail.com
-Version: 2.1.6 - Compiled with Nuitka  
+Version: 1.0.0 - Compiled with Nuitka  
