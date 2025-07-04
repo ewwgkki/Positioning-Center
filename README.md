@@ -26,17 +26,18 @@ No Python or external dependencies are required. All resources are bundled insid
 
 ## Screenshots
 
-### Map Polygon Example
+### Map Polygon Example:
 ![Polygon](./1.jpg)
 
-### Elliptical Area Example
+### Elliptical Area Example:
 ![Elliptical](./2.jpg)
 
-### Main interface
+### Main interface:
 ![Elliptical](./3.jpg)
 
-### Tracking Demo
+### Tracking Example:
 
+![Elliptical](./4.jpg)
 
 ## 🖥 System Requirements
 
